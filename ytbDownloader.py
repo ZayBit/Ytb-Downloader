@@ -216,7 +216,7 @@ B_dir.pack(
     ipady=5
 )
 # botton para descargar
-B_DOWNLOAD = Button(app,text="Download",command=download,cursor='hand2')
+B_DOWNLOAD = Button(app,text="Descargar",command=download,cursor='hand2')
 B_DOWNLOAD.config(font=('calibri', 11, 'bold'),borderwidth = '1')
 B_DOWNLOAD.pack(
     ipadx=10,
